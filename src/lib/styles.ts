@@ -76,3 +76,4 @@ export const createGradient = (from: string, to: string, direction: 'r' | 'br' |
 export const createSpacing = (type: 'padding' | 'margin', values: string[]) => {
   return values.map(value => `${type}-${value}`).join(' ');
 };
+

@@ -82,3 +82,4 @@ const PyramidChart = ({
 };
 
 export default PyramidChart;
+

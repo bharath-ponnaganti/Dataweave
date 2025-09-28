@@ -45,11 +45,19 @@ const Navigation = () => {
         </div>
         
         <div className="flex items-center gap-4">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="hover:bg-accent/10 transition-all duration-200 hover:scale-110"
+                onClick={() => window.location.href = "/"}
+              >
+                <Home className="h-4 w-4" />
+              </Button>
           <Button 
             variant="ghost" 
             size="icon" 
             className="hidden sm:flex hover:bg-accent/10 transition-all duration-200 hover:scale-110"
-            onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/bharath-ponnaganti/Dataweave.git', '_blank')}
           >
             <Github className="h-4 w-4" />
           </Button>
